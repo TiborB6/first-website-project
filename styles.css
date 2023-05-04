@@ -1,0 +1,62 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Code for the Header */
+.header{
+    background-color: #1f2937;
+    height: 6vh;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    padding-left: 3vw;
+}
+
+.header-link{
+    text-decoration: none;
+    padding-right: 3vw;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+
+}
+
+a,
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Code for the Content */
+.content{
+
+}
+
+/* Code for the Footer */
+.footer{
+    color: white;
+    background-color: #1f2937;
+    height: 6vh;
+
+    font-size: smaller;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
