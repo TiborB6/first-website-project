@@ -40,11 +40,146 @@ a:visited{
     color: white;
 }
 
+/* Content */
 
-
-/* Code for the Content */
 .content{
+    display: flex;
+    flex-direction: column;
+}
 
+section{
+    padding: 20px 20vw 20px 20vw;
+    flex: auto;
+    min-height: 400px;
+}
+/* Content/Attention */
+
+.attention{
+    background-color: #1f2937;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 20vw 20px 20vw;
+}
+
+.title>.h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+/* Content/Interest */
+
+.interest{
+    padding: 20px 15vw 20px 15vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.interest>.h1{
+    font-size: 24px;
+    font-weight: bold;
+    height: 8vh;
+}
+
+.interest>ul{
+    padding: 0px;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+li{
+    flex: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 20vh;
+
+}
+
+
+.interest>.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.interest>ul>li>p{
+    margin: 0px;
+    text-align: center;
+
+    font-size: 10pt;
+    font-weight: 100;
+
+}
+
+div:empty{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 5px;
+
+}
+
+
+/* Desire */
+.desire{
+    background-color: #e5e7eb;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote{
+    font-style: italic;
+    font-size: 16pt;
+}   
+.quotation{
+    align-self: flex-end;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+/* Call to Action */
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CtA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30%;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 70vw;
+    padding: 20px;
 }
 
 /* Code for the Footer */
